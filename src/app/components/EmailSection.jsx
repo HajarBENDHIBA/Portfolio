@@ -35,7 +35,7 @@ const EmailSection = () => {
     <section id="contact" className="grid md:grid-cols-2 my-12 py-24 gap-4 relative">
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
+        <h5 className="text-3xl font-bold text-white my-2">Let&apos;s Connect</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           I&apos;m currently looking for new opportunities. Whether you have a question or just want to say hi, I&apos;ll get back to you!
         </p>
@@ -54,7 +54,7 @@ const EmailSection = () => {
         ) : (
           <form className="flex flex-col" onSubmit={handleSubmit}>
             <div className="mb-6">
-              <label htmlFor="email" className="text-white block mb-2 text-sm font-medium">
+              <label htmlFor="email" className="text-white block mb-2 text-lg font-medium">
                 Your email
               </label>
               <input
@@ -67,7 +67,7 @@ const EmailSection = () => {
               />
             </div>
             <div className="mb-6">
-              <label htmlFor="subject" className="text-white block text-sm mb-2 font-medium">
+              <label htmlFor="subject" className="text-white block text-lg mb-2 font-medium">
                 Subject
               </label>
               <input
@@ -80,7 +80,7 @@ const EmailSection = () => {
               />
             </div>
             <div className="mb-6">
-              <label htmlFor="message" className="text-white block text-sm mb-2 font-medium">
+              <label htmlFor="message" className="text-white block text-lg mb-2 font-medium">
                 Message
               </label>
               <textarea
