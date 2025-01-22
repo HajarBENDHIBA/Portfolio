@@ -26,7 +26,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Bachelor's degree in Economics and Management</li>
+        <li>Bachelor&apos;s degree in Economics and Management</li>
         <li>Full Stack Developer at Gomycode/Jadara Foundation</li>
       </ul>
     ),
