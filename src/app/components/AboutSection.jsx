@@ -20,31 +20,31 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg">
+        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg transition-transform transform hover:scale-105 hover:shadow-lg hover:border-gray-400">
           <SiMongodb className="text-green-500" /> MongoDB
         </li>
-        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg">
+        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg transition-transform transform hover:scale-105 hover:shadow-lg hover:border-gray-400">
           <SiExpress className="text-gray-500" /> Express
         </li>
-        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg">
+        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg transition-transform transform hover:scale-105 hover:shadow-lg hover:border-gray-400">
           <SiReact className="text-blue-500" /> React
         </li>
-        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg">
+        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg transition-transform transform hover:scale-105 hover:shadow-lg hover:border-gray-400">
           <SiNodedotjs className="text-green-700" /> Node.js
         </li>
-        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg">
+        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg transition-transform transform hover:scale-105 hover:shadow-lg hover:border-gray-400">
           <SiJavascript className="text-yellow-500" /> JavaScript
         </li>
-        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg">
+        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg transition-transform transform hover:scale-105 hover:shadow-lg hover:border-gray-400">
           <SiTypescript className="text-blue-700" /> TypeScript
         </li>
-        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg">
+        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg transition-transform transform hover:scale-105 hover:shadow-lg hover:border-gray-400">
           <SiNextdotjs className="text-black dark:text-white" /> Next.js
         </li>
-        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg">
+        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg transition-transform transform hover:scale-105 hover:shadow-lg hover:border-gray-400">
           <SiTailwindcss className="text-teal-500" /> Tailwind CSS
         </li>
-        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg">
+        <li className="flex items-center gap-2 p-4 border border-gray-300 rounded-lg text-lg transition-transform transform hover:scale-105 hover:shadow-lg hover:border-gray-400">
           <SiBootstrap className="text-purple-500" /> Bootstrap
         </li>
       </ul>
